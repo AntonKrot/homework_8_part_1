@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <header class="header">
+                        <div class="menu">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="#">Construction companies portal</a>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav">
+                                            <li class="active"><a href="#">Users <span class="sr-only">(current)</span></a></li>
+                                            <li><a href="#">Objects</a></li>
+                                            <li><a href="#">Articles</a></li>
+                                        </ul>
+                                    </div><!-- /.navbar-collapse -->
+                                </div><!-- /.container-fluid -->
+                            </nav>
+                        </div>
+                        <div class="container">
+                            <h1>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-arrow-left"></span>
+                                </a>
+                                    Edit "Some User"
+                            </h1>
+                        </div>
+                    </header>
+                    <main class="content">
+                        <form action="">
+                            <div class="col-xs-6">
+                                <fieldset>
+                                    <legend>User info</legend>
+                                    <div class="row form-group">
+                                        <div class="col-xs-4">
+                                            <label for="title">Owner photo</label>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <img src="https://placehold.it/200x200" alt="img" class="img-thumbnail">
+                                            <button class="btn btn-link button__change">Change</button>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-xs-4">
+                                            <label for="title">Owner full name</label>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <input type="text" placeholder="Enter owner full name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-xs-4">
+                                            <label for="title">Owner address</label>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <textarea name="" id="" class="form-control" placeholder="Enter owner address"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-xs-4">
+                                            <label for="title">Owner phone number</label>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <input type="text" placeholder="Enter phone number" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-xs-4">
+                                            <label for="title">Owner E-mail</label>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <input type="text" placeholder="Enter e-mail address" class="form-control">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="col-xs-6">
+                                <fieldset>
+                                    <legend>Company info</legend>
+                                    <div class="form-group">
+                                        <div class="col-xs-4">
+                                            <label for="title">Company photo</label>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <img src="https://placehold.it/200x200" alt="img" class="img-thumbnail">
+                                            <button class="btn btn-link button__change">Change</button>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-xs-4">
+                                            <label for="title">Company name</label>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <input type="text" placeholder="Enter company name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-xs-4">
+                                            <label for="title">Rating</label>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-xs-4">
+                                            <label for="title">Show in TOP</label>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <input type="checkbox">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </form>
+                        <div class="row form-group">
+                            <div class="col-xs-12">
+                                <fieldset>
+                                    <legend>Company description</legend>
+                                    <div class="row form-group">
+                                        <div class="col-xs-12">
+                                            <textarea name="title" class="form-control"></textarea>
+                                            <br>
+                                            <div class="btn-group pull-right">
+                                                <button class="btn btn-success">
+                                                    <span class="glyphicon glyphicon-floppy-disk"></span>
+                                                    Save
+                                                </button>
+                                                <button class="btn btn-danger">
+                                                    <span class="glyphicon glyphicon-minus-sign"></span>
+                                                    Cancel
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <div class="form-group">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Company contacts
+                                            <button class="btn btn-success btn-xs">
+                                                <span class="glyphicon glyphicon-plus"></span>
+                                                Add new</button>
+                                        </div>
+                                            <table class="table">
+                                                <tr>
+                                                    <th>Title</th>
+                                                    <th>Value</th>
+                                                    <th>Type</th>
+                                                    <th>Options</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Phone number</td>
+                                                    <td>097 12 34 567</td>
+                                                    <td>Phone</td>
+                                                    <td>
+                                                        <div class="btn-group">
+                                                            <button class="btn btn-success btn-xs">
+                                                                <span class="glyphicon glyphicon-pencil"></span>
+                                                                Edit</button>
+                                                            <button class="btn btn-danger btn-xs">
+                                                                <span class="glyphicon glyphicon-trash"></span>
+                                                                Remove
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Fax</td>
+                                                    <td>123 45 67 890</td>
+                                                    <td>Fax</td>
+                                                    <td>
+                                                        <div class="btn-group">
+                                                            <button class="btn btn-success btn-xs">
+                                                                <span class="glyphicon glyphicon-pencil"></span>
+                                                                Edit</button>
+                                                            <button class="btn btn-danger btn-xs">
+                                                                <span class="glyphicon glyphicon-trash"></span>
+                                                                Remove
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="col-xs-4 table__col">
+                                                    <input type="text" value="Fax" cols="100" class="form-control">
+                                                    </td>
+                                                    <td><input type="text" value="123 45 67 890" class="form-control"></td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Tel
+                                                                <span class="caret"></span>
+                                                            </button>
+                                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                                <li><a href="#">Mobile</a></li>
+                                                                <li><a href="#">Fax</a></li>
+                                                                <li><a href="#">Email</a></li>
+                                                                <li><a href="#">WebSite</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="btn-group">
+                                                            <button class="btn btn-success btn-xs">
+                                                                <span class="glyphicon glyphicon-pencil"></span>
+                                                                Edit</button>
+                                                            <button class="btn btn-danger btn-xs">
+                                                                <span class="glyphicon glyphicon-trash"></span>
+                                                                Remove
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer class="footer">
+ <h1 class="footer__text"> &copy; Brain Academy 2016</h1>
+</footer>
+</body>
+</html>
